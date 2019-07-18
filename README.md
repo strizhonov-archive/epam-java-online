@@ -1,6 +1,4 @@
-# epam
-
-Here are JAVA INTRODUCTION ONLINE course tasks.
+# epam - JAVA INTRODUCTION ONLINE
 
 firstmodule - Basics of software code development; <br/>
 secondmodule - Algorithmization; <br/>

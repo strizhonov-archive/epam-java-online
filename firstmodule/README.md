@@ -1,4 +1,4 @@
-Здесь находятся решения задач первого модуля Basics Of Software Code Development.
+# Basics Of Software Code Development.
 
 В пакете "linearprogram" - раздел "Линейные программы";<br/>
 в "branchprogram" - раздел "Ветвления";<br/>
