@@ -10,7 +10,7 @@ public class Second {
 
         int gcd = 1;
 
-        // Main logic
+        // port.Main logic
         int min = getMin(a, b, c, d);
 
         for (int i = 1; i <= min; i++) {

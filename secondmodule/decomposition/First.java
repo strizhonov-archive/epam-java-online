@@ -16,7 +16,7 @@ public class First {
 
         int gcd = 1;
 
-        // Main logic
+        // port.Main logic
         int min = getMin(a, b);
 
         for (int i = 1; i <= min; i++) {
