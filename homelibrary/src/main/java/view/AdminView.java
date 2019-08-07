@@ -1,9 +1,9 @@
-package view;
+package src.main.java.view;
 
-import controller.InputChecker;
-import Main;
-import model.book.Book;
-import model.person.Admin;
+import src.main.java.Main;
+import src.main.java.controller.InputChecker;
+import src.main.java.model.book.Book;
+import src.main.java.model.person.Admin;
 
 import javax.mail.MessagingException;
 import java.io.BufferedReader;

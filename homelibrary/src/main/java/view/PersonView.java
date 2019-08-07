@@ -1,7 +1,7 @@
-package view;
+package src.main.java.view;
 
-import controller.InputChecker;
-import model.person.Person;
+import src.main.java.controller.InputChecker;
+import src.main.java.model.person.Person;
 
 import java.util.Scanner;
 

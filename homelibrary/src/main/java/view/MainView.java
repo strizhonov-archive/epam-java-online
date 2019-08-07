@@ -1,9 +1,8 @@
-package view;
+package src.main.java.view;
 
-import model.person.Admin;
-import model.person.Person;
-import model.person.User;
-
+import src.main.java.model.person.Admin;
+import src.main.java.model.person.Person;
+import src.main.java.model.person.User;
 
 public class MainView {
 

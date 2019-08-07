@@ -1,7 +1,7 @@
-package model;
+package src.main.java.model;
 
-import controller.SaverLoader;
-import model.person.Person;
+import src.main.java.controller.SaverLoader;
+import src.main.java.model.person.Person;
 
 import java.io.IOException;
 import java.util.ArrayList;

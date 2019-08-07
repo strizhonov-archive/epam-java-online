@@ -1,7 +1,7 @@
-package model;
+package src.main.java.model;
 
-import controller.SaverLoader;
-import model.book.Book;
+import src.main.java.controller.SaverLoader;
+import src.main.java.model.book.Book;
 
 import java.io.IOException;
 import java.util.ArrayList;

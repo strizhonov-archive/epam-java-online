@@ -1,8 +1,9 @@
-package controller;
+package src.main.java.controller;
 
-import model.book.Book;
-import model.person.Admin;
-import model.person.Person;
+import src.main.java.Main;
+import src.main.java.model.book.Book;
+import src.main.java.model.person.Admin;
+import src.main.java.model.person.Person;
 
 import java.io.BufferedReader;
 import java.io.FileOutputStream;

@@ -1,6 +1,8 @@
-import model.BookContainer;
-import model.PersonContainer;
-import view.MainView;
+package src.main.java;
+
+import src.main.java.model.BookContainer;
+import src.main.java.model.PersonContainer;
+import src.main.java.view.MainView;
 
 public class Main {
 

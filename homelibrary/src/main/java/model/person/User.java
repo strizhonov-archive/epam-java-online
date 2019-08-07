@@ -1,9 +1,9 @@
-package model.person;
+package src.main.java.model.person;
 
-import controller.EMailSender;
-import model.EMail;
-import model.PersonContainer;
-import model.book.BookTemplate;
+import src.main.java.controller.EMailSender;
+import src.main.java.model.EMail;
+import src.main.java.model.PersonContainer;
+import src.main.java.model.book.BookTemplate;
 
 import javax.mail.MessagingException;
 import java.util.ArrayList;

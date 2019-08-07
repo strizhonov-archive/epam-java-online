@@ -1,7 +1,8 @@
-package controller;
+package src.main.java.controller;
 
-import model.EMail;
-import model.person.Person;
+import src.main.java.Main;
+import src.main.java.model.EMail;
+import src.main.java.model.person.Person;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

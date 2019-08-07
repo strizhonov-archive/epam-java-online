@@ -1,6 +1,7 @@
-package controller;
+package src.main.java.controller;
 
-import model.person.Person;
+import src.main.java.Main;
+import src.main.java.model.person.Person;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

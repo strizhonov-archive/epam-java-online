@@ -1,4 +1,4 @@
-package view;
+package src.main.java.view;
 
 public class AuxiliaryView {
 

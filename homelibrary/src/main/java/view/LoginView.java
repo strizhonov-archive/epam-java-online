@@ -1,9 +1,9 @@
-package view;
+package src.main.java.view;
 
-import controller.InputChecker;
-import Main;
-import model.PersonContainer;
-import model.person.Person;
+import src.main.java.Main;
+import src.main.java.controller.InputChecker;
+import src.main.java.model.PersonContainer;
+import src.main.java.model.person.Person;
 
 import java.io.Console;
 import java.io.IOException;

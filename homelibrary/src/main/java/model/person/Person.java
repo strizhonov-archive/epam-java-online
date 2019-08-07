@@ -1,9 +1,9 @@
-package model.person;
+package src.main.java.model.person;
 
-import Main;
-import controller.SaverLoader;
-import model.book.Book;
-import view.CatalogPageView;
+import src.main.java.Main;
+import src.main.java.controller.SaverLoader;
+import src.main.java.model.book.Book;
+import src.main.java.view.CatalogPageView;
 
 import java.io.IOException;
 

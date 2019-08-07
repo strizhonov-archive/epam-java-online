@@ -1,4 +1,4 @@
-package model.book;
+package src.main.java.model.book;
 
 public class PaperBook extends Book {
 

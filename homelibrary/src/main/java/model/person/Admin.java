@@ -1,8 +1,8 @@
-package model.person;
+package src.main.java.model.person;
 
-import Main;
-import controller.SaverLoader;
-import model.book.Book;
+import src.main.java.Main;
+import src.main.java.controller.SaverLoader;
+import src.main.java.model.book.Book;
 
 import javax.mail.MessagingException;
 import java.io.IOException;

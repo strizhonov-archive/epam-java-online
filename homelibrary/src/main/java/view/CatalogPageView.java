@@ -1,7 +1,7 @@
-package view;
+package src.main.java.view;
 
-import Main;
-import model.book.Book;
+import src.main.java.Main;
+import src.main.java.model.book.Book;
 
 import java.util.ArrayList;
 

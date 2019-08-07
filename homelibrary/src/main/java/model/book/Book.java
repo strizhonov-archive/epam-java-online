@@ -1,8 +1,8 @@
-package model.book;
+package src.main.java.model.book;
 
-import controller.EMailSender;
-import model.EMail;
-import model.person.Person;
+import src.main.java.controller.EMailSender;
+import src.main.java.model.EMail;
+import src.main.java.model.person.Person;
 
 import javax.mail.MessagingException;
 
