@@ -1,7 +1,7 @@
 package homelibrary.src.main.java.model.book;
 
-import homelibrary.src.main.java.controller.EMailSender;
-import homelibrary.src.main.java.model.EMail;
+import homelibrary.src.main.java.controller.EmailSender;
+import homelibrary.src.main.java.model.Email;
 import homelibrary.src.main.java.model.person.Person;
 
 import javax.mail.MessagingException;
@@ -35,7 +35,7 @@ public class Book extends BookTemplate {
         lines += 1;
         lines += getDescriptionLines(description);
 
-        EMailSender ems = new EMailSender();
+        EmailSender ems = new EmailSender();
 
         String text = "The book "
                 + this.getName()
@@ -44,14 +44,14 @@ public class Book extends BookTemplate {
                 + " got new description: \n"
                 + description;
 
-        EMail eMailWithoutTo = EMail.EMailBuilder.getInstance()
+        Email emailWithoutTo = Email.EmailBuilder.getInstance()
                 .from(person.getEMailAddress())
                 .password(eMailPass)
                 .subject("New description.")
                 .message(text)
                 .build();
 
-        ems.notifyAllUsersExceptSender(eMailWithoutTo);
+        ems.notifyAllUsersExceptSender(emailWithoutTo);
     }
 
     public long getId() {

@@ -32,9 +32,12 @@ public class Vessel {
         if (pier != null) {
             int vesselMaxLoad = capacity - cargo;
             int pierCargo = pier.getCargo();
+
             int loadAmount = Math.min(vesselMaxLoad, pierCargo);
+
             cargo += loadAmount;
             pier.setCargo(pierCargo - loadAmount);
+
             return loadAmount;
         }
 
@@ -44,9 +47,12 @@ public class Vessel {
     public int unload() {
         if (pier != null) {
             int pierMaxLoad = pier.getCapacity() - pier.getCargo();
+
             int loadAmount = Math.min(cargo, pierMaxLoad);
+
             cargo -= loadAmount;
             pier.setCargo(pier.getCargo() + loadAmount);
+
             return loadAmount;
         }
 

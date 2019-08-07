@@ -1,6 +1,6 @@
 package homelibrary.src.main.java.model;
 
-public class EMail {
+public class Email {
 
     private String from;
     private String password;
@@ -8,7 +8,7 @@ public class EMail {
     private String subject;
     private String message;
 
-    public EMail(EMailBuilder eMailBuilder) {
+    public Email(EmailBuilder eMailBuilder) {
         this.from = eMailBuilder.from;
         this.password = eMailBuilder.password;
         this.to = eMailBuilder.to;
@@ -56,7 +56,7 @@ public class EMail {
         this.message = message;
     }
 
-    public static class EMailBuilder {
+    public static class EmailBuilder {
 
         private String from;
         private String password;
@@ -64,37 +64,37 @@ public class EMail {
         private String subject;
         private String message;
 
-        public static EMailBuilder getInstance() {
-            return new EMailBuilder();
+        public static EmailBuilder getInstance() {
+            return new EmailBuilder();
         }
 
-        public EMailBuilder from(String from) {
+        public EmailBuilder from(String from) {
             this.from = from;
             return this;
         }
 
-        public EMailBuilder password(String password) {
+        public EmailBuilder password(String password) {
             this.password = password;
             return this;
         }
 
-        public EMailBuilder to(String to) {
+        public EmailBuilder to(String to) {
             this.to = to;
             return this;
         }
 
-        public EMailBuilder subject(String subject) {
+        public EmailBuilder subject(String subject) {
             this.subject = subject;
             return this;
         }
 
-        public EMailBuilder message(String message) {
+        public EmailBuilder message(String message) {
             this.message = message;
             return this;
         }
 
-        public EMail build() {
-            return new EMail(this);
+        public Email build() {
+            return new Email(this);
         }
     }
 

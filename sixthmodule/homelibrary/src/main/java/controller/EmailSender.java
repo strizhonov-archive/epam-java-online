@@ -1,7 +1,7 @@
 package homelibrary.src.main.java.controller;
 
 import homelibrary.src.main.java.Main;
-import homelibrary.src.main.java.model.EMail;
+import homelibrary.src.main.java.model.Email;
 import homelibrary.src.main.java.model.person.Person;
 
 import javax.mail.*;
@@ -9,11 +9,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
-public class EMailSender {
+public class EmailSender {
 
     private Properties props;
 
-    public EMailSender() {
+    public EmailSender() {
         props = new Properties();
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.auth", "true");
@@ -21,30 +21,30 @@ public class EMailSender {
         props.put("mail.smtp.port", "587");;
     }
 
-    public void sendEMail(EMail eMail) throws MessagingException {
+    public void sendEmail(Email email) throws MessagingException {
 
         Session session = Session.getInstance(props,
                 new Authenticator() {
                     protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication(eMail.getFrom(), eMail.getPassword());
+                        return new PasswordAuthentication(email.getFrom(), email.getPassword());
                     }
                 });
         Message message = new MimeMessage(session);
-        message.setFrom(new InternetAddress(eMail.getFrom()));
-        message.setSubject(eMail.getSubject());
+        message.setFrom(new InternetAddress(email.getFrom()));
+        message.setSubject(email.getSubject());
 
-        message.setText(eMail.getMessage());
-        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(eMail.getTo()));
+        message.setText(email.getMessage());
+        message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(email.getTo()));
 
         Transport.send(message);
     }
 
-    public void notifyAllUsersExceptSender(EMail eMail) throws MessagingException {
+    public void notifyAllUsersExceptSender(Email email) throws MessagingException {
         for (Person person : Main.personContainer.getPeople()) {
             String personEMailAddress = person.getEMailAddress();
-            if (!eMail.getFrom().equals(personEMailAddress)) {
-                eMail.setTo(personEMailAddress);
-                sendEMail(eMail);
+            if (!email.getFrom().equals(personEMailAddress)) {
+                email.setTo(personEMailAddress);
+                sendEmail(email);
             }
         }
     }

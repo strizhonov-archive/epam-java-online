@@ -120,7 +120,7 @@ public class LoginView {
             AuxiliaryView.printMessage("Enter your e-mail (at gmail.com):");
             String userInput = sc.nextLine();
 
-            if (InputChecker.checkEMail(userInput)) {
+            if (InputChecker.checkEmail(userInput)) {
                 return userInput;
             } else {
                 AuxiliaryView.printMessage("Choose another e-mail.");

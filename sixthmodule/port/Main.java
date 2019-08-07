@@ -24,6 +24,5 @@ public class Main {
         new VesselMotionThread(new Vessel("Ship9"), port, cv).start();
         new VesselMotionThread(new Vessel("Ship10"), port, cv).start();
 
-
     }
 }

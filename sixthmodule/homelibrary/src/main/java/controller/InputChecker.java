@@ -35,10 +35,10 @@ public class InputChecker {
         return input.length() >= 4 && input.length() <= 10;
     }
 
-    public static boolean checkEMail(String input) {
+    public static boolean checkEmail(String input) {
         Pattern pattern = Pattern.compile("^[A-Z0-9._%+-]+@gmail.com$", Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(input);
-        return matcher.matches() && !isEMailExists(input);
+        return matcher.matches() && !isEmailExists(input);
     }
 
     public static boolean isLoginExists(String login) {
@@ -51,9 +51,9 @@ public class InputChecker {
         return false;
     }
 
-    public static boolean isEMailExists(String eMail) {
+    public static boolean isEmailExists(String email) {
         for (Person person : Main.personContainer.getPeople()) {
-            if (person.getEMailAddress().equals(eMail)) {
+            if (person.getEMailAddress().equals(email)) {
                 return true;
             }
         }

@@ -1,7 +1,7 @@
 package homelibrary.src.main.java.model.person;
 
-import homelibrary.src.main.java.controller.EMailSender;
-import homelibrary.src.main.java.model.EMail;
+import homelibrary.src.main.java.controller.EmailSender;
+import homelibrary.src.main.java.model.Email;
 import homelibrary.src.main.java.model.PersonContainer;
 import homelibrary.src.main.java.model.book.BookTemplate;
 
@@ -18,7 +18,7 @@ public class User extends Person {
         PersonContainer personContainer = new PersonContainer();
         ArrayList<Person> people = personContainer.getPeople();
 
-        EMailSender ems = new EMailSender();
+        EmailSender ems = new EmailSender();
 
         String text = "I want to suggest new book to the catalog." +
                 "\nName: " +
@@ -26,7 +26,7 @@ public class User extends Person {
                 "\nAuthor: " +
                 bookTemplate.getAuthor();
 
-        EMail eMail = EMail.EMailBuilder.getInstance()
+        Email eMail = Email.EmailBuilder.getInstance()
                 .from(this.getEMailAddress())
                 .password(password)
                 .subject("New book suggestion.")
@@ -37,7 +37,7 @@ public class User extends Person {
             if (person instanceof Admin) {
                 String sendTo = person.getEMailAddress();
                 eMail.setTo(sendTo);
-                ems.sendEMail(eMail);
+                ems.sendEmail(eMail);
             }
         }
 
