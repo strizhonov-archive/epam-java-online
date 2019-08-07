@@ -5,4 +5,4 @@ secondmodule - Algorithmization; <br/>
 thirdmodule - Strings and basics of text processing; <br/>
 fourthmodule - Programming with classes; <br/>
 fifthmodule - Basics of OOP; <br/>
-sixthmodule - Final tasks; <br/>git
+sixthmodule - Final tasks; <br/>
