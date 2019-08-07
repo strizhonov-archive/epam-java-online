@@ -1,6 +1,6 @@
 package model.person;
 
-import controller.Main;
+import Main;
 import controller.SaverLoader;
 import model.book.Book;
 import view.CatalogPageView;

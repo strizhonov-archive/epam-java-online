@@ -1,5 +1,10 @@
 package onedimension;
 
+/**
+ * Дана последовательность действительных чисел а1, а2 ,..., аn . Заменить все ее члены, большие данного Z, этим
+ * числом. Подсчитать количество замен.
+ */
+
 public class Second {
 
     public static void replaceElements(double[] array, int z) {

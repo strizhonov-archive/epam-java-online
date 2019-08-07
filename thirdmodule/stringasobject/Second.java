@@ -1,5 +1,9 @@
 package stringasobject;
 
+/**
+ * В строке вставить после каждого символа 'a' символ 'b'.
+ */
+
 public class Second {
 
     private static final char FLAG_CHAR = 'a';

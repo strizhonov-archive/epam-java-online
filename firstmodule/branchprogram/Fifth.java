@@ -1,5 +1,9 @@
 package branchprogram;
 
+/**
+ * Вычислить значение функции (см. pdf-файл).
+ */
+
 public class Fifth {
 
     public static void resolveFunction(int x) {

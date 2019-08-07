@@ -2,6 +2,10 @@ package cycleprogram;
 
 import java.math.BigInteger;
 
+/**
+ * Составить программу нахождения произведения квадратов первых двухсот чисел.
+ */
+
 public class Fourth {
 
     public static void multiplySquares() {

@@ -1,5 +1,10 @@
 package onedimension;
 
+/**
+ * Задана последовательность N вещественных чисел. Вычислить сумму чисел, порядковые номера которых
+ * являются простыми числами.
+ */
+
 public class Sixth {
 
     public static void summarizeElementsByRule(double[] array) {

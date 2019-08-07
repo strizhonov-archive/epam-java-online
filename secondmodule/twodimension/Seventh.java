@@ -2,6 +2,12 @@ package twodimension;
 
 import java.text.DecimalFormat;
 
+/**
+ * Сформировать квадратную матрицу порядка N по правилу:
+ * A[I,J] = sin((I^2 - J^2) / N)
+ * и подсчитать количество положительных элементов в ней.
+ */
+
 public class Seventh {
 
     public static void createMatrixFromFunction(int n) {

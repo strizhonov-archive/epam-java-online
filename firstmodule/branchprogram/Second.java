@@ -1,5 +1,9 @@
 package branchprogram;
 
+/**
+ * Найти max{min(a, b), min(c, d)}.
+ */
+
 public class Second {
 
     public static void findMaxFromMin(double a, double b, double c, double d) {

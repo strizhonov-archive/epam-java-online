@@ -13,11 +13,6 @@ public class Dialog {
         while (!("y".equals(input) || "n".equals(input))) {
             System.out.println("Do you want to get next XML element? y/n");
 
-            while (!sc.hasNext()) {
-                System.out.println("Illegal input.");
-                sc.next();
-            }
-
             input = sc.next();
 
             if (!("y".equals(input) || "n".equals(input))) {

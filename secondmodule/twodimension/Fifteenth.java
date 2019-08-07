@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Найдите наибольший элемент матрицы и заменить все нечетные элементы на него.
+ */
+
 public class Fifteenth {
 
     public static void replaceElementsWithMax(int[][] matrix) {

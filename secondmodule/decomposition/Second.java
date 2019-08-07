@@ -1,5 +1,9 @@
 package decomposition;
 
+/**
+ * Написать метод(методы) для нахождения наибольшего общего делителя четырех натуральных чисел.
+ */
+
 public class Second {
 
     public static void findGreatestCommonDivisor(int a, int b, int c, int d) {

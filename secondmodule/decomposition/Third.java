@@ -1,5 +1,10 @@
 package decomposition;
 
+/**
+ * Вычислить площадь правильного шестиугольника со стороной а, используя метод вычисления площади
+ * треугольника.
+ */
+
 public class Third {
 
     public static void printRegularHexagonArea(int side) {

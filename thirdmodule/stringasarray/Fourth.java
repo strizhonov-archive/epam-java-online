@@ -1,5 +1,9 @@
 package stringasarray;
 
+/**
+ * В строке найти количество чисел.
+ */
+
 public class Fourth {
 
     public static void countNumbers(String s) {

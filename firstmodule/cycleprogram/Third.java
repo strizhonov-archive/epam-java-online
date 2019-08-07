@@ -1,5 +1,9 @@
 package cycleprogram;
 
+/**
+ * Найти сумму квадратов первых ста чисел.
+ */
+
 public class Third {
 
     public static void summarizeSquares() {

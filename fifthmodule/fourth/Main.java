@@ -1,5 +1,6 @@
-package fourth.controller;
+package fourth;
 
+import fourth.controller.SaverLoader;
 import fourth.view.ConsoleView;
 
 import java.util.Scanner;

@@ -1,5 +1,9 @@
 package onedimension;
 
+/**
+ * Даны действительные числа а1, а2 ,..., аn . Поменять местами наибольший и наименьший элементы.
+ */
+
 public class Fourth {
 
     public static void switchMinAndMax(double[] array) {

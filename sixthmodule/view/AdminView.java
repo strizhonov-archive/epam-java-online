@@ -1,7 +1,7 @@
 package view;
 
 import controller.InputChecker;
-import controller.Main;
+import Main;
 import model.book.Book;
 import model.person.Admin;
 

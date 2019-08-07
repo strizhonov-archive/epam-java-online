@@ -1,5 +1,9 @@
 package stringasobject;
 
+/**
+ * Из заданной строки получить новую, повторив каждый символ дважды.
+ */
+
 public class Sixth {
 
     public static void doubleSymbols(String text){

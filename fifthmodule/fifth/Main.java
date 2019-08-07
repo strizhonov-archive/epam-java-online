@@ -1,4 +1,4 @@
-package fifth.controller;
+package fifth;
 
 import fifth.model.Flower;
 import fifth.model.FlowerComposition;

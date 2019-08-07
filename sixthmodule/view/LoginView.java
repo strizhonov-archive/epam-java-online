@@ -1,7 +1,7 @@
 package view;
 
 import controller.InputChecker;
-import controller.Main;
+import Main;
 import model.PersonContainer;
 import model.person.Person;
 

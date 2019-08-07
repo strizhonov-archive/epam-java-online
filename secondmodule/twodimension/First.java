@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Дана матрица. Вывести на экран все нечетные столбцы, у которых первый элемент больше последнего.
+ */
+
 public class First {
 
     public static void findColumnsByRule(int[][] matrix) {

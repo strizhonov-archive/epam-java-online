@@ -1,5 +1,9 @@
 package stringasarray;
 
+/**
+ * В строке найти количество цифр.
+ */
+
 public class Third {
 
     public static void countDigits(String s) {

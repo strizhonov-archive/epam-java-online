@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+ */
+
 public class Second {
 
     public static void findDiagonalElements(int[][] matrix) {

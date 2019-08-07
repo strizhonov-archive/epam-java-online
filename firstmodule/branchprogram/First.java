@@ -1,5 +1,10 @@
 package branchprogram;
 
+/**
+ * Даны два угла треугольника (в градусах). Определить, существует ли такой треугольник, и если да, то будет ли
+ * он прямоугольным.
+ */
+
 public class First {
 
     public static void checkValidityOfTriangle(double x, double y) {

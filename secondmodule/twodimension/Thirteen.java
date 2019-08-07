@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Отсотрировать стобцы матрицы по возрастанию и убыванию значений эементов.
+ */
+
 public class Thirteen {
 
     public static void sortColumnsAscending(int[][] matrix) {

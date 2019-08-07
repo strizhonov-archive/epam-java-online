@@ -1,5 +1,9 @@
 package cycleprogram;
 
+/**
+ * Вычислить значения функции на отрезке [а,b] c шагом h, см. pdf файл.
+ */
+
 public class Second {
 
     public static void resolveFunction(int a, int b, int h) {

@@ -1,5 +1,9 @@
 package decomposition;
 
+/**
+ * Написать метод(методы), определяющий, в каком из данных двух чисел больше цифр.
+ */
+
 public class Eleventh {
 
     public static void compareNumbersByDigitAmount(int a, int b) {

@@ -1,5 +1,9 @@
 package stringasobject;
 
+/**
+ * С помощью функции копирования и операции конкатенации составить из частей слова “информатика” слово “торт”.
+ */
+
 public class Fourth {
 
     private static final String INITIAL_WORD = "информатика";

@@ -1,5 +1,9 @@
 package linearprogram;
 
+/**
+ * Вычислить значение выражени по формуле: (sin(x) + cos(y) / cos(x) - sin(y)) * tg(xy)
+ */
+
 public class Third {
 
     // X, Y supposed to be RADIANS

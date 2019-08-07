@@ -1,7 +1,10 @@
 package stringasobject;
 
-public class First {
+/**
+ * Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
+ */
 
+public class First {
 
     public static void countMaxSpaces(String s) {
         String [] spacesArray = s.split("\\S");

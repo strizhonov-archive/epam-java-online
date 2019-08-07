@@ -1,5 +1,3 @@
-package controller;
-
 import model.BookContainer;
 import model.PersonContainer;
 import view.MainView;

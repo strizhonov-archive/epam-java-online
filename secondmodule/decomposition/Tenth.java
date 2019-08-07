@@ -1,5 +1,10 @@
 package decomposition;
 
+/**
+ * Дано натуральное число N. Написать метод(методы) для формирования массива, элементами которого
+ * являются цифры числа N.
+ */
+
 public class Tenth {
 
     public static void createArrayFromDigits(int number) {

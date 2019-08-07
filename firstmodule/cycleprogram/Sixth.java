@@ -1,5 +1,9 @@
 package cycleprogram;
 
+/**
+ * Вывести на экран соответствий между символами и их численными обозначениями в памяти компьютера.
+ */
+
 public class Sixth {
 
     public static void printChars() {

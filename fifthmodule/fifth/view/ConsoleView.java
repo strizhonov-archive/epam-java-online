@@ -12,9 +12,9 @@ public class ConsoleView {
     public String askIfMoreFlowersNeed() {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Do you need more flowers in your composition? (y/n)");
-
         while (true) {
+            System.out.println("Do you need more flowers in your composition? (y/n)");
+
             String userInput = sc.next();
 
             if (InputChecker.checkForYesNoInput(userInput)) {

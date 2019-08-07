@@ -1,5 +1,9 @@
 package onedimension;
 
+/**
+ * Даны целые числа а1, а2, ..., аn. Вывести на печать только те числа, для которых аi > i.
+ */
+
 public class Fifth {
 
     public static void printElementsByRule(int[] array) {

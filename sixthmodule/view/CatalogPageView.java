@@ -1,6 +1,6 @@
 package view;
 
-import controller.Main;
+import Main;
 import model.book.Book;
 
 import java.util.ArrayList;

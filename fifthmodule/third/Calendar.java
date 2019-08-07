@@ -2,6 +2,11 @@ package third;
 
 import java.util.Arrays;
 
+/**
+ * Создать класс Календарь с внутренним классом, с помощью объектов которого можно хранить информацию о
+ * выходных и праздничных днях.
+ */
+
 public class Calendar {
 
     private Day[] days;

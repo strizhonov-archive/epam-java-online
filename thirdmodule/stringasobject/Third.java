@@ -1,5 +1,9 @@
 package stringasobject;
 
+/**
+ * Проверить, является ли заданное слово палиндромом.
+ */
+
 public class Third {
 
     public static void checkIfWordIsPalindrome(String s) {

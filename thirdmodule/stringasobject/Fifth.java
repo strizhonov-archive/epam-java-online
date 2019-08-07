@@ -1,5 +1,9 @@
 package stringasobject;
 
+/**
+ * Подсчитать, сколько раз среди символов заданной строки встречается буква “а”.
+ */
+
 public class Fifth {
 
     private static final char SYMBOL = 'a'; // latin а

@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+ */
+
 public class Third {
 
     public static void findRowAndColumn(int k, int p, int[][] matrix) {

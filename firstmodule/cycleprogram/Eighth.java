@@ -1,5 +1,9 @@
 package cycleprogram;
 
+/**
+ * Даны два числа. Определить цифры, входящие в запись как первого так и второго числа.
+ */
+
 public class Eighth {
 
     public static void findDigitsAsNumbers(final int x, final int y) {

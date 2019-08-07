@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Найти положительные элементы главной диагонали квадратной матрицы.
+ */
+
 public class Tenth {
 
     public static void findPositiveElementsOnDiagonal(int[][] matrix) {

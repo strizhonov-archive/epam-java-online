@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Сформировать квадратную матрицу порядка n по заданному образцу(n - четное) (см. pdf файл).
+ */
+
 public class Fourth {
 
     public static void createMatrix(int n) {

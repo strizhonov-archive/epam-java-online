@@ -36,11 +36,6 @@ public class Dialog {
         while (sChar.length() != 1) {
             System.out.println("Enter character to order sorting:");
 
-            while (!sc.hasNext()) {
-                System.out.println("Illegal input.");
-                sc.next();
-            }
-
             sChar = sc.next();
 
             if (sChar.length() != 1) {

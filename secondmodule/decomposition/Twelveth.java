@@ -1,5 +1,10 @@
 package decomposition;
 
+/**
+ * Даны натуральные числа К и N. Написать метод(методы) формирования массива А, элементами которого
+ * являются числа, сумма цифр которых равна К и которые не большее N.
+ */
+
 public class Twelveth {
 
     public static void createArrayByRule(int k, int n) {

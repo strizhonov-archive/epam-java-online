@@ -1,5 +1,9 @@
 package twodimension;
 
+/**
+ * Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
+ */
+
 public class Twelfth {
 
     public static void sortRowsAscending(int[][] matrix) {

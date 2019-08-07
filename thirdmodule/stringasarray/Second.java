@@ -1,5 +1,9 @@
 package stringasarray;
 
+/**
+ * Замените в строке все вхождения 'word' на 'letter'.
+ */
+
 public class Second {
 
     private static final String TO_REPLACE = "word";

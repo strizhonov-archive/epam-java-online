@@ -1,5 +1,9 @@
 package linearprogram;
 
+/**
+ * Вычислить значение выражени по формуле: ((b + sqrt(b^2 + 4ac)) / (2a - a^3 * c + b^(-2))
+ */
+
 public class Second {
 
     public static void resolvePowerFunction(int a, int b, int c) {

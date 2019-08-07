@@ -1,5 +1,10 @@
 package onedimension;
 
+/**
+ * В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся число. Если таких
+ * чисел несколько, то определить наименьшее из них.
+ */
+
 public class Ninth {
 
     public static void findTheSmallestMode(int[] array) {

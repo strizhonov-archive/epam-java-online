@@ -1,5 +1,9 @@
 package decomposition;
 
+/**
+ * Написать метод(методы), проверяющий, являются ли данные три числа взаимно простыми.
+ */
+
 public class Sixth {
 
     public static void checkIfIntegersAreCoprime(int a, int b, int c) {

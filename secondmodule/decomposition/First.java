@@ -1,5 +1,10 @@
 package decomposition;
 
+/**
+ * Написать метод(методы) для нахождения наибольшего общего делителя и наименьшего общего кратного двух
+ * натуральных чисел: НОК (А,В) = A * B / НОД (А,В)
+ */
+
 public class First {
 
     public static void findLeastCommonMultiple(int a, int b) {

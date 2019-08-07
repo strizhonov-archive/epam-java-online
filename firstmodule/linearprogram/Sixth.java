@@ -1,5 +1,10 @@
 package linearprogram;
 
+/**
+ * Для области, указанной в pdf-файле составить линейную программу, которая печатает true, если точка с координатами (х, у)
+ * принадлежит закрашенной области, и false — в противном случае.
+ */
+
 public class Sixth {
 
     public static void checkValidityOfCoordinates(int x, int y) {

@@ -1,5 +1,10 @@
 package branchprogram;
 
+/**
+ * Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. Определить, пройдет ли кирпич через
+ * отверстие.
+ */
+
 public class Fourth {
 
     public static void checkIfBrickFits(int a, int b, int x, int y, int z) {

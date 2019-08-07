@@ -1,5 +1,6 @@
 package fourth.controller;
 
+import fourth.Main;
 import fourth.model.Chest;
 import fourth.model.Treasure;
 import fourth.model.TreasureType;

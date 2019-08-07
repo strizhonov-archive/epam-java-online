@@ -3,6 +3,11 @@ package twodimension;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Сформировать случайную матрицу m x n, состоящую из нулей и единиц, причем в каждом столбце число
+ * единиц равно номеру столбца.
+ */
+
 public class Fourteenth {
 
     public static void createMatrix() {

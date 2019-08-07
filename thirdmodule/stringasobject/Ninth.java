@@ -1,5 +1,10 @@
 package stringasobject;
 
+/**
+ * Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке. Учитывать только английские
+ * буквы.
+ */
+
 public class Ninth {
 
     public static void splitLettersByCase(String s) {

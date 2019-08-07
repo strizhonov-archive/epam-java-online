@@ -1,5 +1,10 @@
 package cycleprogram;
 
+/**
+ * Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль которых больше или равен
+ * заданному е. См. pdf файл.
+ */
+
 public class Fifth {
 
     public static void resolveSeries(double e, int length) {
