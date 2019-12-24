@@ -19,7 +19,9 @@ public class Seventh {
             for (int j = 0; j < matrix.length; j++) {
 
                 matrix[i][j] = Math.sin((Math.pow(i, 2) + Math.pow(j, 2)) / n);
-                if (matrix[i][j] > 0) { counter++; }
+                if (matrix[i][j] > 0) {
+                    counter++;
+                }
 
             }
         }
@@ -29,7 +31,7 @@ public class Seventh {
 
         DecimalFormat df = new DecimalFormat("#.##");
 
-        for(double[] i : matrix) {
+        for (double[] i : matrix) {
             for (double j : i) {
                 System.out.print(df.format(j) + "  ");
             }

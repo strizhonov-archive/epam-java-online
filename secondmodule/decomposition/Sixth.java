@@ -24,7 +24,7 @@ public class Sixth {
             }
         }
 
-        printResult(areIntegersCoprime, a , b, c);
+        printResult(areIntegersCoprime, a, b, c);
 
     }
 
@@ -32,6 +32,7 @@ public class Sixth {
     private static boolean checkIfThereIsZero(int a, int b, int c) {
         return a == 0 || b == 0 || c == 0;
     }
+
 
     private static int getAbsMin(int a, int b, int c) {
         a = Math.abs(a);
@@ -48,6 +49,7 @@ public class Sixth {
         return c;
 
     }
+
 
     private static void printResult(boolean areIntegersCoprime, int a, int b, int c) {
         if (areIntegersCoprime) {

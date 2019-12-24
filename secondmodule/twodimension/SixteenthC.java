@@ -31,7 +31,7 @@ public class SixteenthC {
         permute(arr, 0, arr.length - 1);
     }
 
-    private static void permute(int[] arr, int i, int n){
+    private static void permute(int[] arr, int i, int n) {
 
         if (i == n) {
             if (checkArrayForMagic(arr)) {
@@ -47,7 +47,7 @@ public class SixteenthC {
 
     }
 
-    private static void swap (int[] arr, int x, int y){
+    private static void swap(int[] arr, int x, int y) {
         int temp = arr[x];
         arr[x] = arr[y];
         arr[y] = temp;
@@ -58,9 +58,10 @@ public class SixteenthC {
         // Get target sum of elements in rows, columns and diagonals
         int sideLength = (int) Math.sqrt(arr.length);
         int sumOfAllElements = 0;
-        for (int i = 1; i <= arr.length; i++) { sumOfAllElements += i; }
+        for (int i = 1; i <= arr.length; i++) {
+            sumOfAllElements += i;
+        }
         int targetSum = sumOfAllElements / sideLength;
-
 
 
         // Checking rows

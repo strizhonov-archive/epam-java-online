@@ -1,4 +1,4 @@
-package cycleprogram;
+package cycle;
 
 /**
  * Вычислить значения функции на отрезке [а,b] c шагом h, см. pdf файл.

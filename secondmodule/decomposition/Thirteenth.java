@@ -8,6 +8,7 @@ package decomposition;
 
 public class Thirteenth {
 
+
     public static void findTwins(int n) {
 
         for (int i = n; i <= 2 * n; i++) {
@@ -20,16 +21,19 @@ public class Thirteenth {
 
     }
 
+
     private static boolean checkIfNumberIsPrime(int number) {
 
         boolean isNumberPrime = true;
         for (int i = 2; i < number; i++) {
             if (number % i == 0) {
                 isNumberPrime = false;
+                break;
             }
         }
         return isNumberPrime;
     }
+
 
     private static void printResult(int firstElement, int secondElement) {
         System.out.println("Twin prime pair: " + firstElement + ", " + secondElement + "");

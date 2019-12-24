@@ -17,15 +17,18 @@ public class Seventh {
 
     }
 
+
     private static int getFactorial(int upperBound) {
         int factorial = 1;
         for (int i = 2; i <= upperBound; i++) {
             factorial *= i;
         }
-        return  factorial;
+        return factorial;
     }
+
 
     private static void printResult(int sum) {
         System.out.println("Factorials sum of odds between 1 and 9 is " + sum + ".");
     }
+
 }

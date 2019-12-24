@@ -11,7 +11,7 @@ public class Sixth {
         int[][] matrix = new int[n][n];
 
         for (int i = 0; i < matrix.length / 2; i++) {
-            for (int j = i; j < matrix[i].length - i; j ++) {
+            for (int j = i; j < matrix[i].length - i; j++) {
                 matrix[i][j] = 1;
                 matrix[matrix.length - 1 - i][j] = 1;
             }
@@ -19,7 +19,7 @@ public class Sixth {
 
         System.out.println("Matrix looks like:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

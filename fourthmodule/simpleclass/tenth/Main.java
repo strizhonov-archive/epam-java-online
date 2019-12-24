@@ -3,6 +3,9 @@ package simpleclass.tenth;
 import java.time.DayOfWeek;
 import java.util.Calendar;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -23,7 +26,7 @@ public class Main {
         cal4.set(Calendar.HOUR_OF_DAY, 11);
         cal4.set(Calendar.MINUTE, 50);
 
-        Airline[] airlines = new Airline[] {
+        Airline[] airlines = new Airline[]{
                 new Airline("Minsk", 532, "TU-154",
                         cal1, new DayOfWeek[]{DayOfWeek.MONDAY, DayOfWeek.SATURDAY}),
                 new Airline("Moscow", 111, "BOEING 474",

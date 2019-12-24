@@ -7,6 +7,7 @@ package decomposition;
 
 public class Fifth {
 
+
     public static void findSecondMax(int[] array) {
 
         int max = getMax(array);
@@ -25,6 +26,7 @@ public class Fifth {
 
     }
 
+
     private static int getMax(int[] array) {
 
         int max = array[0];
@@ -34,15 +36,18 @@ public class Fifth {
                 max = i;
             }
         }
-        return  max;
+        return max;
     }
+
 
     private static void printNegativeResult() {
         System.out.println("Either array has only one element or all elements are equal.");
     }
 
+
     private static void printPositiveResult(int number) {
         System.out.println("The greatest element before maximum is " + number + ".");
     }
+
 
 }

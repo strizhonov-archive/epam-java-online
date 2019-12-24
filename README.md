@@ -1,4 +1,4 @@
-# epam - JAVA INTRODUCTION ONLINE
+# JAVA INTRODUCTION ONLINE by EPAM course
 
 firstmodule - Basics of software code development; <br/>
 secondmodule - Algorithmization; <br/>

@@ -34,12 +34,14 @@ public class Eighth {
         }
     }
 
+
     private static boolean checkBounds(int[] array, int lowerBound, int upperBound) {
         return !(lowerBound < 0
                 || upperBound < 0
                 || lowerBound > array.length - 1
                 || upperBound > array.length - 1);
     }
+
 
     private static int sumTriple(int[] array, int startIndex) {
         int sum = 0;
@@ -48,6 +50,7 @@ public class Eighth {
         }
         return sum;
     }
+
 
     private static void printSum(int sum, int lowerBound) {
         System.out.println("Sum of elements between " + lowerBound + " and " + (lowerBound + 2) + " is " + sum + ".");
@@ -58,9 +61,6 @@ public class Eighth {
         System.out.println(warning);
 
     }
-
-
-
 
 
 }

@@ -6,6 +6,9 @@ import notebook.View.ConsoleView;
 
 import java.io.IOException;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {

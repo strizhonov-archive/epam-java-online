@@ -17,9 +17,10 @@ public class Twelveth {
 
     }
 
+
     private static void inflateArray(int[] array, int k, int n) {
         int counter = 0;
-        for (int i = 1; i <= n; i ++) {
+        for (int i = 1; i <= n; i++) {
             if (getDigitSum(i) == k) {
                 array[counter] = i;
                 counter++;
@@ -28,10 +29,11 @@ public class Twelveth {
         }
     }
 
+
     private static int getArrayLength(int k, int n) {
 
         int counter = 0;
-        for (int i = 1; i <= n; i ++) {
+        for (int i = 1; i <= n; i++) {
             if (getDigitSum(i) == k) {
                 counter++;
             }
@@ -40,6 +42,7 @@ public class Twelveth {
 
         return counter;
     }
+
 
     private static int getDigitSum(int number) {
 
@@ -53,6 +56,7 @@ public class Twelveth {
         return sum;
     }
 
+
     private static void printResult(int[] array) {
 
         for (int i : array) {
@@ -60,4 +64,5 @@ public class Twelveth {
         }
         System.out.println();
     }
+
 }

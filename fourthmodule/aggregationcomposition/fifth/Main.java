@@ -2,11 +2,14 @@ package aggregationcomposition.fifth;
 
 import java.util.Arrays;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {
 
-        Tour[] tours = new Tour[] {
+        Tour[] tours = new Tour[]{
                 new Tour(TourType.RECREATION, Transport.AIRCRAFT, 15, true),
                 new Tour(TourType.CRUISE, Transport.TRAIN, 21, false),
                 new Tour(TourType.TREATMENT, Transport.AIRCRAFT, 11, true),

@@ -5,6 +5,9 @@ import fourth.view.ConsoleView;
 
 import java.util.Scanner;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     private static final long START_MONEY = 1_000_000L;

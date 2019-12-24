@@ -1,5 +1,8 @@
 package regex.firsttask;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     private static final String TEXT = "Однажды на какой-то станции я видел, как все проводницы ушли в буфет и заболтались, " +

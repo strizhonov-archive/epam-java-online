@@ -11,7 +11,7 @@ public class Fifteenth {
         // Printing matrix before replacing
         System.out.println("Matrix before replacing:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -43,7 +43,7 @@ public class Fifteenth {
         // Printing matrix after replacing
         System.out.println("Matrix after replacing:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

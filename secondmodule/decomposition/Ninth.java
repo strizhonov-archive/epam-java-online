@@ -9,6 +9,7 @@ import java.text.DecimalFormat;
 
 public class Ninth {
 
+
     public static void findQuadrilateralArea(double firstRightSide, double secondRightSide,
                                              double thirdSide, double fourthSide) {
 
@@ -24,11 +25,11 @@ public class Ninth {
             printArea(quadrilateralArea);
 
         } else {
-
             printWarning("Quadrilateral with passed data can not exist.");
         }
 
     }
+
 
     private static boolean checkIfDataValid(double firstRightSide, double secondRightSide,
                                             double thirdSide, double fourthSide) {

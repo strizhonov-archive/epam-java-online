@@ -18,7 +18,7 @@ public class Directory {
         String name = "New File";
 
         int add = 0;
-        for (int i = 0; i < files.length; i ++) {
+        for (int i = 0; i < files.length; i++) {
             if (files[i].getName().equals(name)) {
                 name = "New File" + " (" + ++add + ")";
                 i = -1;

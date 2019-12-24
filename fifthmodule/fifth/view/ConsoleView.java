@@ -97,20 +97,27 @@ public class ConsoleView {
 
     private String getStringColor(String str) {
         switch (str) {
-            case "1": return "Yellow";
-            case "2": return "Red";
-            case "3": return "Purple";
+            case "1":
+                return "Yellow";
+            case "2":
+                return "Red";
+            case "3":
+                return "Purple";
             case "4":
-            default: return "White";
+            default:
+                return "White";
         }
     }
 
     private String getStringType(String str) {
         switch (str) {
-            case "1": return "Tulip";
-            case "2": return "Rose";
+            case "1":
+                return "Tulip";
+            case "2":
+                return "Rose";
             case "3":
-            default: return "Chamomile";
+            default:
+                return "Chamomile";
         }
     }
 

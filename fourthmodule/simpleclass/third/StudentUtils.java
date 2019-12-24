@@ -17,7 +17,7 @@ public class StudentUtils {
 
     private static void printBestStudents(Student[] students) {
 
-        for (Student student: students) {
+        for (Student student : students) {
             boolean isStudentExcellent = true;
             int[] marks = student.getMarks();
 

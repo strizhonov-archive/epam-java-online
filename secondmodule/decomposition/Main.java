@@ -1,12 +1,16 @@
 package decomposition;
 
+
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {
         First.findLeastCommonMultiple(9, 27);
-        Second.findGreatestCommonDivisor(6,90, 18, 27);
+        Second.findGreatestCommonDivisor(6, 90, 18, 27);
         Third.printRegularHexagonArea(5);
-        Fourth.findMostRemotePoints(new int[][] {
+        Fourth.findMostRemotePoints(new int[][]{
                 {0, -2, -10, 4, 1000},
                 {0, -3, -15, 6, -99}
         });

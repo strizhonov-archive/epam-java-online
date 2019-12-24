@@ -34,7 +34,9 @@ public class Eighth {
                     long buf = numerators[i];
                     numerators[i] = numerators[i + 1];
                     numerators[i + 1] = buf;
-                    if (i >= 1) { i -= 2; }
+                    if (i >= 1) {
+                        i -= 2;
+                    }
                 }
             }
 

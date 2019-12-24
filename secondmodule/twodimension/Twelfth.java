@@ -10,7 +10,7 @@ public class Twelfth {
 
         System.out.println("Matrix before rows ascending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -18,7 +18,7 @@ public class Twelfth {
         }
 
 
-        for (int i = 0; i < matrix.length; i ++) {
+        for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 int minIndex = j;
                 for (int k = j; k < matrix[i].length; k++) {
@@ -35,7 +35,7 @@ public class Twelfth {
 
         System.out.println("Matrix after rows ascending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -48,7 +48,7 @@ public class Twelfth {
 
         System.out.println("Matrix before rows descending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -56,7 +56,7 @@ public class Twelfth {
         }
 
 
-        for (int i = 0; i < matrix.length; i ++) {
+        for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
                 int maxIndex = j;
                 for (int k = j; k < matrix[i].length; k++) {
@@ -73,7 +73,7 @@ public class Twelfth {
 
         System.out.println("Matrix after rows descending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

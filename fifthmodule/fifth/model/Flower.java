@@ -37,7 +37,7 @@ public class Flower {
             return this;
         }
 
-        public  FlowerBuilder setType(String sFlowerType) {
+        public FlowerBuilder setType(String sFlowerType) {
             this.sFlowerType = sFlowerType;
             return this;
         }

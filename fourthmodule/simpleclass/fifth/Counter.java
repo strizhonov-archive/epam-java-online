@@ -6,7 +6,8 @@ public class Counter {
     private int lowerBound = 0;
     private int upperBound = 100;
 
-    public Counter() {}
+    public Counter() {
+    }
 
     public Counter(int state, int lowerBound, int upperBound) {
         if (upperBound < lowerBound || state < lowerBound || state > upperBound) {

@@ -2,6 +2,9 @@ package simpleclass.eight;
 
 import java.util.Arrays;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {

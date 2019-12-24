@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
-import java.util.ArrayList;
 
 public class ConnectionHandler implements Runnable {
 
@@ -38,7 +37,7 @@ public class ConnectionHandler implements Runnable {
                     String sStudent = SaverLoader.getStringFromStudent(student);
                     oos.writeObject(sStudent);
 
-                } else if ("ADD".equals(message.split(REQ_DIVIDER)[0])){
+                } else if ("ADD".equals(message.split(REQ_DIVIDER)[0])) {
                     Student student = SaverLoader.getStudentFromString(message.split(REQ_DIVIDER)[1]);
                     server.addStudent(student);
                     oos.writeObject("Added.");

@@ -13,35 +13,35 @@ public class Treasure {
         switch (treasureType) {
             case DIAMOND:
             case RUBY:
-                this.amount = (int)(capacity * 5);
+                this.amount = (int) (capacity * 5);
                 break;
             case BITCOIN:
-                this.amount = (int)(capacity * 23);
+                this.amount = (int) (capacity * 23);
                 break;
             case GOLD:
             case SILVER:
             default:
-                this.amount = (int)(capacity);
+                this.amount = (int) (capacity);
                 break;
         }
 
     }
 
-    public void setAmount(double capacity)  {
+    public void setAmount(double capacity) {
         this.capacity = capacity;
 
         switch (treasureType) {
             case DIAMOND:
             case RUBY:
-                this.amount = (int)(capacity * 5);
+                this.amount = (int) (capacity * 5);
                 break;
             case BITCOIN:
-                this.amount = (int)(capacity * 23);
+                this.amount = (int) (capacity * 23);
                 break;
             case GOLD:
             case SILVER:
             default:
-                this.amount = (int)(capacity);
+                this.amount = (int) (capacity);
                 break;
         }
     }

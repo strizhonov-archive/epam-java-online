@@ -1,4 +1,4 @@
-package cycleprogram;
+package cycle;
 
 /**
  * Найти сумму квадратов первых ста чисел.

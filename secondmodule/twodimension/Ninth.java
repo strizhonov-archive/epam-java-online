@@ -10,7 +10,7 @@ public class Ninth {
     public static void findMaxColumnSum(int[][] matrix) {
 
         System.out.println("Matrix looks like:");
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -22,7 +22,7 @@ public class Ninth {
         int maxIndex = 0;
 
         for (int[] i : matrix) {
-            for(int j = 0; j < i.length; j++) {
+            for (int j = 0; j < i.length; j++) {
                 sumArray[j] += i[j];
                 if (sumArray[j] > sumArray[maxIndex]) {
                     maxIndex = j;

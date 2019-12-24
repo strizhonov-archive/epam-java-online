@@ -8,7 +8,7 @@ public class First {
 
     public static void convertCamelToSnake(String[] camelArray) {
         for (int i = 0; i < camelArray.length; i++) {
-            String snakeLexeme =  getSnakeFrom(camelArray[i]);
+            String snakeLexeme = getSnakeFrom(camelArray[i]);
             print(snakeLexeme, i);
         }
     }

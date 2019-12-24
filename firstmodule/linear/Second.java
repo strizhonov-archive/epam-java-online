@@ -1,4 +1,4 @@
-package linearprogram;
+package linear;
 
 /**
  * Вычислить значение выражени по формуле: ((b + sqrt(b^2 + 4ac)) / (2a - a^3 * c + b^(-2))

@@ -31,7 +31,7 @@ public class Person {
         return eMailAddress;
     }
 
-    public void write()throws IOException {
+    public void write() throws IOException {
         SaverLoader.writePerson(this);
     }
 

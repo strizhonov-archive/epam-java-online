@@ -11,7 +11,8 @@ public class Calendar {
 
     private Day[] days;
 
-    public Calendar() {}
+    public Calendar() {
+    }
 
     public Calendar(Day[] days) {
         this.days = days;

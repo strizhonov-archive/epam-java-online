@@ -20,6 +20,7 @@ public class Eleventh {
         }
     }
 
+
     private static int getDigitCount(int number) {
         int count = 0;
         while (number != 0) {
@@ -30,13 +31,16 @@ public class Eleventh {
         return count;
     }
 
+
     private static void printFirstGreaterResult(int a, int b) {
         System.out.println("Number " + a + " contains more digits than number " + b + ".");
     }
 
+
     private static void printSecondGreaterResult(int a, int b) {
         System.out.println("Number " + a + " contains less digits than number " + b + ".");
     }
+
 
     private static void printEqualResult(int a, int b) {
         System.out.println("Number " + a + " and number " + b + " contain equal quantity of digits.");

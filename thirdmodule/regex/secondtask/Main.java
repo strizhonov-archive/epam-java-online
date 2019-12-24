@@ -3,6 +3,9 @@ package regex.secondtask;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     private static int deepCounter = 0;
@@ -25,7 +28,7 @@ public class Main {
 
     private static final String PATTERN = "<(\\S+)(.*?)>([\\s\\S]*?)<(/\\1)>|(?<noBody><.+?/>)";
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         String contents = STRING_XML;
 

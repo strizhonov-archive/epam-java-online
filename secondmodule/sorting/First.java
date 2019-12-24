@@ -15,7 +15,7 @@ public class First {
         int gap = 0;
         for (int i = 0; i < resultArray.length; i++) {
 
-            if (i == k ) {
+            if (i == k) {
 
                 for (int j = i; j < i + secondArray.length; j++) {
                     resultArray[j] = secondArray[j - i];

@@ -8,6 +8,7 @@ package decomposition;
 
 public class Fourteenth {
 
+
     public static void findArmstrongTo(int k) {
 
         for (int i = 1; i <= k; i++) {
@@ -20,6 +21,7 @@ public class Fourteenth {
 
     }
 
+
     private static int getDigitsCount(int number) {
         int count = 0;
         while (number != 0) {
@@ -29,6 +31,7 @@ public class Fourteenth {
         }
         return count;
     }
+
 
     private static int getSumOfPoweredDigits(int number, int power) {
         int sum = 0;
@@ -40,6 +43,7 @@ public class Fourteenth {
         }
         return sum;
     }
+
 
     private static void printResult(int armstrongValue) {
         System.out.println(armstrongValue + " is an Armstrong value.");

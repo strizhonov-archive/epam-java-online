@@ -1,4 +1,4 @@
-package branchprogram;
+package branch;
 
 /**
  * Найти max{min(a, b), min(c, d)}.

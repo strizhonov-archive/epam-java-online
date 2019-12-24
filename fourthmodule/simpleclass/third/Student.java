@@ -26,7 +26,7 @@ public class Student {
     }
 
     public int[] getMarks() {
-            return marks;
-        }
+        return marks;
+    }
 
 }

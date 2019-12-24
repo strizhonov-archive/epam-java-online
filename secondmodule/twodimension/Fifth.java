@@ -17,7 +17,7 @@ public class Fifth {
         }
 
         System.out.println("Matrix looks like:");
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

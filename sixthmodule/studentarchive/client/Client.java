@@ -1,8 +1,8 @@
 package studentarchive.client;
 
-import studentarchive.server.ConnectionHandler;
 import studentarchive.SaverLoader;
 import studentarchive.Student;
+import studentarchive.server.ConnectionHandler;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;

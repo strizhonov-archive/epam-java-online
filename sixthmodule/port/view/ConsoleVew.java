@@ -3,7 +3,7 @@ package port.view;
 import port.model.Pier;
 import port.model.Vessel;
 
-public  class ConsoleVew {
+public class ConsoleVew {
 
     public synchronized void printConnection(Vessel vessel, Pier pier) {
         System.out.println("*CONNECTION MESSAGE:*");
@@ -11,7 +11,7 @@ public  class ConsoleVew {
         System.out.println("Vessel " + vessel.getName() + " arrived at pier #"
                 + (pier.getPierNum() + 1));
 
-        System.out.println("Vessel " + vessel.getName() +" has "
+        System.out.println("Vessel " + vessel.getName() + " has "
                 + vessel.getCargo() + " tons cargo; pier #" + (pier.getPierNum() + 1)
                 + " has " + pier.getCargo() + " tons cargo");
 
@@ -24,7 +24,7 @@ public  class ConsoleVew {
         System.out.println("Vessel " + vessel.getName() + " departed from pier #"
                 + (pier.getPierNum() + 1));
 
-        System.out.println("Vessel " + vessel.getName() +" has "
+        System.out.println("Vessel " + vessel.getName() + " has "
                 + vessel.getCargo() + " tons cargo; pier #" + (pier.getPierNum() + 1)
                 + " has " + pier.getCargo() + " tons cargo after departure.");
 
@@ -35,7 +35,7 @@ public  class ConsoleVew {
         System.out.println("*VESSEL LOADING MESSAGE:*");
 
         System.out.println("Vessel " + vessel.getName() + " gets "
-                +  loadAmount + " tons of cargo from pier #" + (pier.getPierNum() + 1));
+                + loadAmount + " tons of cargo from pier #" + (pier.getPierNum() + 1));
 
         System.out.println();
     }
@@ -44,7 +44,7 @@ public  class ConsoleVew {
         System.out.println("*VESSEL UNLOADING MESSAGE:*");
 
         System.out.println("Vessel " + vessel.getName() + " drops "
-                +  loadAmount + " tons of cargo to pier #" + (pier.getPierNum() + 1));
+                + loadAmount + " tons of cargo to pier #" + (pier.getPierNum() + 1));
 
         System.out.println();
     }
@@ -57,8 +57,6 @@ public  class ConsoleVew {
 
         System.out.println();
     }
-
-
 
 
 }

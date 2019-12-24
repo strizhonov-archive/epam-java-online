@@ -90,7 +90,7 @@ public class PersonView {
                 AuxiliaryView.printMessage("Enter book name:");
                 userInput = sc.nextLine();
 
-                if (!currentUser.viewBooksByName(userInput)){
+                if (!currentUser.viewBooksByName(userInput)) {
                     AuxiliaryView.printMessage("No books found.");
                 }
 

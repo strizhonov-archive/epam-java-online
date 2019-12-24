@@ -40,7 +40,7 @@ public class SixteenthB {
             }
         }
 
-        return  matrix;
+        return matrix;
     }
 
 
@@ -48,7 +48,9 @@ public class SixteenthB {
 
         // Get target sum of elements in rows, columns and diagonals
         int sumOfAllElements = 0;
-        for (int i = 1; i <= n * n; i++) { sumOfAllElements += i; }
+        for (int i = 1; i <= n * n; i++) {
+            sumOfAllElements += i;
+        }
         int targetSum = sumOfAllElements / n;
 
 
@@ -113,7 +115,9 @@ public class SixteenthB {
                     for (int n = 0; n < matrix[i].length; n++) {
                         if (comparedValue == matrix[m][n]) {
                             counter++;
-                            if (counter > 1) { return false; }
+                            if (counter > 1) {
+                                return false;
+                            }
                         }
 
                     }

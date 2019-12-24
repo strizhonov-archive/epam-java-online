@@ -1,4 +1,4 @@
-package branchprogram;
+package branch;
 
 /**
  * Вычислить значение функции (см. pdf-файл).

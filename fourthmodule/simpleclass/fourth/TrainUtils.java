@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.Scanner;
 
+/**
+ * Testing class
+ */
 public class TrainUtils {
 
     public static Train[] sortByNumber(Train[] trains) {

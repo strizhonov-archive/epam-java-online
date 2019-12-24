@@ -7,7 +7,8 @@ public class Payment {
     private double totalCost;
     private Item[] items;
 
-    public Payment() {}
+    public Payment() {
+    }
 
     public Payment(Item[] items) {
         this.items = items;

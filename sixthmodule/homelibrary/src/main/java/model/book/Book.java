@@ -83,7 +83,7 @@ public class Book extends BookTemplate {
 
     @Override
     public String toString() {
-        String name =  "Book:" +
+        String name = "Book:" +
                 "\nid=" + id +
                 "\nname=" + getName() +
                 "\nauthor=" + getAuthor() +
@@ -91,10 +91,10 @@ public class Book extends BookTemplate {
                 "\n";
 
         if (description != null) {
-             name += "description=\n" + description +
-                     "\n";
+            name += "description=\n" + description +
+                    "\n";
         }
-        return name ;
+        return name;
     }
 
     public static class BookFactory {

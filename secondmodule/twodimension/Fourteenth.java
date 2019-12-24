@@ -12,7 +12,6 @@ public class Fourteenth {
 
     public static void createMatrix() {
 
-
         // Getting matrix size from user
         Scanner sc = new Scanner(System.in);
 
@@ -51,7 +50,9 @@ public class Fourteenth {
                     System.out.println("The number of columns should be positive.");
                 }
             }
-            if (columns > rows) { System.out.println("Illegal parameters of the matrix. Number of rows should be equal or greater than number of columns."); }
+            if (columns > rows) {
+                System.out.println("Illegal parameters of the matrix. Number of rows should be equal or greater than number of columns.");
+            }
         }
 
 
@@ -77,7 +78,7 @@ public class Fourteenth {
         // Printing matrix
         System.out.println("Matrix looks like:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

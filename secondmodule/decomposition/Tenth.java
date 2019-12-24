@@ -7,6 +7,7 @@ package decomposition;
 
 public class Tenth {
 
+
     public static void createArrayFromDigits(int number) {
 
         int digitsCount = getNumberDigitCount(number);
@@ -18,6 +19,7 @@ public class Tenth {
 
     }
 
+
     private static int getNumberDigitCount(int number) {
         int count = 0;
         while (number != 0) {
@@ -28,6 +30,7 @@ public class Tenth {
         return count;
     }
 
+
     private static void inflateArray(int[] array, int number) {
         for (int i = 0; i < array.length; i++) {
             int digit = number % 10;
@@ -35,6 +38,7 @@ public class Tenth {
             number = number / 10;
         }
     }
+
 
     private static void printResult(int[] array, int number) {
         System.out.println("Digital array from " + number + " number is:");

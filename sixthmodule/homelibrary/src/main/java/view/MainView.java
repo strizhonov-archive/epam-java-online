@@ -14,10 +14,10 @@ public class MainView {
             Person currentPerson = lv.getCurrentPerson();
 
             if (currentPerson instanceof User) {
-                UserView mv = new UserView((User)currentPerson);
+                UserView mv = new UserView((User) currentPerson);
                 mv.showMainDialog();
             } else {
-                AdminView av = new AdminView((Admin)currentPerson);
+                AdminView av = new AdminView((Admin) currentPerson);
                 av.showMainDialog();
             }
         }

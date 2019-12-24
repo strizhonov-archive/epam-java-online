@@ -18,7 +18,9 @@ public class Sixth {
                 int buf = array[i];
                 array[i] = array[i + 1];
                 array[i + 1] = buf;
-                if (i >= 1) { i -= 2; }
+                if (i >= 1) {
+                    i -= 2;
+                }
             }
         }
 

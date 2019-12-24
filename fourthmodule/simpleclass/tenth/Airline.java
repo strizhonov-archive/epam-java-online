@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Calendar;
 
 public class Airline {
+
     private String destination;
     private int flightNumber;
     private String aircraftType;

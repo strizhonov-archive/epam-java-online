@@ -4,12 +4,9 @@ import notebook.Controller.InputChecker;
 import notebook.Model.Note;
 import notebook.Model.Notebook;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class ConsoleView {
 

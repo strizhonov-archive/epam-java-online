@@ -6,11 +6,11 @@ package decomposition;
 
 public class Second {
 
+
     public static void findGreatestCommonDivisor(int a, int b, int c, int d) {
 
         int gcd = 1;
 
-        // port.Main logic
         int min = getMin(a, b, c, d);
 
         for (int i = 1; i <= min; i++) {
@@ -46,6 +46,7 @@ public class Second {
         }
 
     }
+
 
     private static void printResult(int firstNum, int secondNum, int thirdNum, int gcd) {
         System.out.println("The greatest common divisor for "

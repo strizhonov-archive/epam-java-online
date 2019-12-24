@@ -35,7 +35,9 @@ public class Eleventh {
                 if (matrix[i][j] == 5) {
                     counter++;
                 }
-                if (counter == 3) { break; }
+                if (counter == 3) {
+                    break;
+                }
             }
             if (counter >= 3) {
                 System.out.print(i + 1 + " ");

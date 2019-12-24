@@ -19,7 +19,7 @@ public class PasswordEncrypter {
         StringBuilder sb = new StringBuilder();
         String[] sChars = encryptedPass.split(DIVIDER);
         for (String sChar : sChars) {
-            char c = (char)((Integer.parseInt(sChar) - 6) / 2);
+            char c = (char) ((Integer.parseInt(sChar) - 6) / 2);
             sb.append(c);
         }
         return sb.toString();

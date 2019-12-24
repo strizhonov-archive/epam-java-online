@@ -10,7 +10,7 @@ public class Thirteen {
 
         System.out.println("Matrix before column ascending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -35,7 +35,7 @@ public class Thirteen {
 
         System.out.println("Matrix after column ascending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -49,7 +49,7 @@ public class Thirteen {
 
         System.out.println("Matrix before column descending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }
@@ -57,7 +57,7 @@ public class Thirteen {
         }
 
 
-        for (int i = 0; i < matrix[0].length; i ++) {
+        for (int i = 0; i < matrix[0].length; i++) {
             for (int j = 0; j < matrix.length; j++) {
                 int maxIndex = j;
                 for (int k = j; k < matrix.length; k++) {
@@ -74,7 +74,7 @@ public class Thirteen {
 
         System.out.println("Matrix after column descending sorting:");
 
-        for(int[] i : matrix) {
+        for (int[] i : matrix) {
             for (int j : i) {
                 System.out.print(j + " ");
             }

@@ -1,4 +1,4 @@
-package linearprogram;
+package linear;
 
 /**
  * Вычислить значение выражени по формуле: (sin(x) + cos(y) / cos(x) - sin(y)) * tg(xy)

@@ -14,7 +14,7 @@ public class ConsoleView {
         this.client = client;
     }
 
-    public void mainMenu(){
+    public void mainMenu() {
 
         Scanner sc = new Scanner(System.in);
         String userInput;
@@ -66,7 +66,8 @@ public class ConsoleView {
 
             isInputCorrect = InputChecker.checkNumInput(sId);
             if (isInputCorrect) {
-                id = Integer.parseInt(sId);;
+                id = Integer.parseInt(sId);
+                ;
             } else {
                 System.out.println("Illegal input.");
             }
@@ -97,7 +98,8 @@ public class ConsoleView {
 
             isInputCorrect = InputChecker.checkNumInput(sId);
             if (isInputCorrect) {
-                id = Integer.parseInt(sId);;
+                id = Integer.parseInt(sId);
+                ;
             } else {
                 System.out.println("Illegal input.");
             }
@@ -148,7 +150,7 @@ public class ConsoleView {
 
     }
 
-    private void studentCreationDialog(){
+    private void studentCreationDialog() {
         Scanner sc = new Scanner(System.in);
         System.out.println("New student creation.");
         Student student;

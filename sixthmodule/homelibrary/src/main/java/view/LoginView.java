@@ -17,7 +17,7 @@ public class LoginView {
         return currentPerson;
     }
 
-    public void showLogInMenu(){
+    public void showLogInMenu() {
         Scanner sc = new Scanner(System.in);
 
         boolean quitMenu = false;

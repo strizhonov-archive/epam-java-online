@@ -1,10 +1,13 @@
 package port;
 
+import port.controller.VesselMotionThread;
 import port.model.Port;
 import port.model.Vessel;
-import port.controller.VesselMotionThread;
 import port.view.ConsoleVew;
 
+/**
+ * Testing class
+ */
 public class Main {
 
     public static void main(String[] args) {

@@ -26,6 +26,7 @@ public class Sixteenth {
 
     }
 
+
     private static int countEvenDigits(int number) {
         int count = 0;
         while (number != 0) {
@@ -38,6 +39,7 @@ public class Sixteenth {
         return count;
     }
 
+
     private static boolean checkIfNumberHasOnlyOddDigits(int number) {
         while (number != 0) {
             if ((number % 10) % 2 == 0) {
@@ -49,9 +51,11 @@ public class Sixteenth {
         return true;
     }
 
+
     private static int getMin(int numberLength) {
-        return (int)Math.pow(10, numberLength - 1);
+        return (int) Math.pow(10, numberLength - 1);
     }
+
 
     private static int getMax(int numberLength) {
         int max = 9;
@@ -62,12 +66,15 @@ public class Sixteenth {
         return max;
     }
 
+
     private static void printWarning(String warningMessage) {
         System.out.println(warningMessage);
     }
 
+
     private static void printResult(int number, int evenDigitsCount) {
         System.out.println("Sum is " + number + ", even digits " + evenDigitsCount);
     }
+
 
 }

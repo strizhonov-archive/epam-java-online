@@ -13,7 +13,9 @@ public class Eighth {
 
         int min = array[0];
         for (int i : array) {
-            if (i < min) { min = i; }
+            if (i < min) {
+                min = i;
+            }
             System.out.print(i + " ");
         }
 

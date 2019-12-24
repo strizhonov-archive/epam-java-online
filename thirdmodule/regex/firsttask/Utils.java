@@ -157,7 +157,7 @@ public class Utils {
         return pattern.split(text);
     }
 
-    private static String[] getSentences(String text){
+    private static String[] getSentences(String text) {
         Pattern pattern = Pattern.compile("[...]|[?..]|[!!!]|[???]\\.|!|\\?");
         return pattern.split(text);
     }
@@ -172,7 +172,7 @@ public class Utils {
         return counter;
     }
 
-    private static String[] getWords(String text){
+    private static String[] getWords(String text) {
 
         Pattern pattern = Pattern.compile("[\\s.]+");
         String[] words = pattern.split(text);
